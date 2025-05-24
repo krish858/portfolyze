@@ -301,8 +301,6 @@ export default function PortfolioDetailPage() {
           </div>
         </div>
       </header>
-
-      {/* Mobile Toggle Buttons */}
       <div className="md:hidden flex border-b border-gray-800">
         <button
           onClick={() => setMobileView(true)}
@@ -329,7 +327,6 @@ export default function PortfolioDetailPage() {
       </div>
 
       <div className="flex flex-col md:flex-row flex-1 overflow-hidden">
-        {/* Desktop Layout or Mobile Preview */}
         <div
           className={`w-full md:w-1/2 p-4 md:p-6 border-b md:border-b-0 md:border-r border-gray-800 overflow-auto ${
             !mobileView ? "hidden md:block" : "block"
@@ -359,13 +356,11 @@ export default function PortfolioDetailPage() {
           </div>
         </div>
 
-        {/* Desktop Layout or Mobile Chat */}
         <div
           className={`w-full md:w-1/2 flex flex-col h-full ${
             mobileView ? "hidden md:flex" : "flex"
           }`}
         >
-          {/* Score Meter */}
           <div className="p-4 md:p-6 border-b border-gray-800 flex flex-col items-center">
             <div className="relative w-32 md:w-48 h-16 md:h-24 mb-1 md:mb-2">
               <div className="absolute w-full h-full bg-gray-800 rounded-t-full overflow-hidden"></div>
@@ -389,7 +384,6 @@ export default function PortfolioDetailPage() {
             </span>
           </div>
 
-          {/* Chat Messages */}
           <div
             className="flex-1 p-3 md:p-6 overflow-y-auto max-h-[calc(100vh-280px)] md:max-h-[calc(100vh-300px)]"
             ref={chatContainerRef}
@@ -432,7 +426,6 @@ export default function PortfolioDetailPage() {
         </div>
       </div>
 
-      {/* Chat Input - Always visible on mobile, only visible in chat mode */}
       <div
         className={`p-3 md:p-4 border-t border-gray-800 flex justify-center mt-auto ${
           mobileView ? "md:block hidden" : "block"
@@ -465,7 +458,6 @@ export default function PortfolioDetailPage() {
         </div>
       </div>
 
-      {/* Mobile-only chat input when in preview mode */}
       <div
         className={`md:hidden p-3 border-t border-gray-800 flex justify-center mt-auto ${
           !mobileView ? "hidden" : "block"

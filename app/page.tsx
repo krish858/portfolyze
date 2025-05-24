@@ -10,15 +10,15 @@ export default function Home() {
       <div className="h-[1px] w-full bg-gradient-to-r from-[#2DD4BF] to-transparent" />
       <div className="flex justify-center w-full px-4">
         <div className="max-w-[1100px] w-full mt-8 md:mt-16 flex flex-col items-center">
-          <h1 className="text-[28px] md:text-3xl lg:text-5xl font-bold md:font-bold bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-600 to-white tracking-tight px-4">
+          <h1 className="text-[28px] md:text-3xl lg:text-6xl font-bold md:font-extrabold bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-600 to-white tracking-tight px-4">
             Win More Clients with{" "}
             <span className="text-[#20bea9]">Portfolyze,</span>
           </h1>
-          <h1 className="text-[25px] md:text-3xl lg:text-5xl font-bold md:font-bold text-neutral-400 text-center px-4 mt-2">
+          <h1 className="text-[25px] md:text-3xl lg:text-6xl font-extrabold md:font-bold text-neutral-400 text-center px-4 mt-2">
             <span className="text-[#20bea9]">Make your portfolio</span> in 5
             mins!
           </h1>
-          <Button className="mt-8 md:mt-20 w-[150px] h-[40px] md:w-[180px] md:h-[50px] cursor-pointer bg-gradient-to-r from-[#0ec4ab] to-transparent text-neutral-200 text-xl font-bold">
+          <Button className="mt-8 md:mt-20 w-[150px] h-[40px] md:w-[180px] md:h-[50px] cursor-pointer bg-gradient-to-r from-[#0ec4ab] to-transparent text-neutral-200 text-2xl font-bold">
             Start Now
           </Button>
         </div>
