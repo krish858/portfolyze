@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import { Button } from "@/components/ui/button";
+import StartNowBtn from "@/components/StartNowBtn";
 import { MacbookScroll } from "@/components/ui/macbook-scroll";
 import IPhone from "@/components/IPhone";
 
@@ -18,9 +18,7 @@ export default function Home() {
             <span className="text-[#20bea9]">Make your portfolio</span> in 5
             mins!
           </h1>
-          <Button className="mt-8 md:mt-20 w-[150px] h-[40px] md:w-[180px] md:h-[50px] cursor-pointer bg-gradient-to-r from-[#0ec4ab] to-transparent text-neutral-200 text-2xl font-bold">
-            Start Now
-          </Button>
+          <StartNowBtn />
         </div>
       </div>
 
