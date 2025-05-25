@@ -21,7 +21,9 @@ function IPhone() {
                 Chat with AI and make
               </h2>
               <h3 className="text-2xl font-extrabold ">
-                <span className="text-[#20bea9]">Professional</span>{" "}
+                <span className="bg-gradient-to-b from-blue-400 to-blue-700 bg-clip-text text-transparent">
+                  Professional
+                </span>{" "}
                 <span className="bg-gradient-to-b from-neutral-600 text-center to-white bg-clip-text text-transparent">
                   Portfolios.
                 </span>

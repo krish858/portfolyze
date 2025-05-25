@@ -151,10 +151,16 @@ export const Lid = ({
       >
         <div className="absolute inset-0 rounded-lg bg-[#18181a] flex flex-col space-y-1 justify-center items-center">
           <div className="text-3xl font-bold bg-gradient-to-b from-neutral-600 text-center to-white bg-clip-text text-transparent">
-            Chat with ai and make
+            Chat with{" "}
+            <span className="bg-gradient-to-b from-blue-400 to-blue-700 bg-clip-text text-transparent">
+              ai
+            </span>{" "}
+            and make
           </div>
           <div className="text-3xl font-bold space-x-1.5">
-            <span className="text-[#20bea9]">Professional</span>
+            <span className="bg-gradient-to-b from-blue-400 to-blue-700 bg-clip-text text-transparent">
+              Professional
+            </span>
             <span className="bg-gradient-to-b from-neutral-600 text-center to-white bg-clip-text text-transparent">
               PortFolios.
             </span>

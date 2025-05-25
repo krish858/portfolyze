@@ -7,16 +7,20 @@ export default function Home() {
   return (
     <div className="min-h-screen w-screen bg-[#000000]">
       <Navbar />
-      <div className="h-[1px] w-full bg-gradient-to-r from-[#2DD4BF] to-transparent" />
+      <div className="h-[1px] w-full bg-gradient-to-r from-blue-700 to-transparent" />
       <div className="flex justify-center w-full px-4">
         <div className="max-w-[1100px] w-full mt-8 md:mt-16 flex flex-col items-center">
           <h1 className="text-[28px] md:text-3xl lg:text-6xl font-bold md:font-extrabold bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-600 to-white tracking-tight px-4">
             Win More Clients with{" "}
-            <span className="text-[#20bea9]">Portfolyze,</span>
+            <span className="bg-gradient-to-b from-blue-400 to-blue-700 bg-clip-text text-transparent">
+              Portfolyze,
+            </span>
           </h1>
           <h1 className="text-[25px] md:text-3xl lg:text-6xl font-extrabold md:font-bold text-neutral-400 text-center px-4 mt-2">
-            <span className="text-[#20bea9]">Make your portfolio</span> in 5
-            mins!
+            <span className="bg-gradient-to-b from-blue-400 to-blue-700 bg-clip-text text-transparent">
+              Make your portfolio
+            </span>{" "}
+            in 5 mins!
           </h1>
           <StartNowBtn />
         </div>
