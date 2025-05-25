@@ -82,7 +82,7 @@ export default function ScanPage() {
         <h1 className="text-5xl md:text-6xl font-bold mb-4">
           Welcome back, {session?.user?.name?.split(" ")[0] || "User"}
         </h1>
-        <p className="text-gray-400 text-xl">Ready to run your next scan?</p>
+        <p className="text-gray-400 text-xl">Ready to make your next resume?</p>
       </div>
 
       <div className="max-w-4xl mx-auto w-full mb-auto xl:mt-6">
